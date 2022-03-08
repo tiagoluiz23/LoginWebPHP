@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("../_imagens/background.png");
+    background-position: 50% 70%;
+    color: white;
+    font-family: Arial;
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16pt;
+    padding: 5px 5px;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: white;
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #ff0066;
+    border: none;
+    cursor: pointer;
+}
+
+div#corpo-form {
+    width: 420px;
+    margin: 100px auto 0px auto;
+}
+
+div#corpo-form-cad {
+    width: 420px;
+    margin: 60px auto 0px auto;
+}
+
+div#corpo-form h1,
+div#corpo-form-cad h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*Código para formatar o placeholder em todos navegadores*/
+
+ ::-webkit-input-placeholder {
+    /*webkit browsers*/
+    color: #fff;
+}
+
+ :-moz-placeholder {
+    /*webkit mozila 4 to 18*/
+    color: #fff;
+}
+
+ ::-moz-placeholder {
+    /*webkit mozila 19 +*/
+    color: #fff;
+}
+
+ :-ms-input-placeholder {
+    /*webkit internet explorer 10 +*/
+    color: #fff;
+}
+
+div#msg-sucesso {
+    /*# quando é id */
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50, .3);
+    border: 1px solid rgb(34, 139, 34);
+}
+
+div.msg-erro {
+    /* .quando é classe*/
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114, .3);
+    border: 1px solid rgb(165, 42, 42);
+}
